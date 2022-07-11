@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Search bar</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Input for search functionality-->
+      <form action="">
+        <input
+          type="search"
+          class="inputfield"
+          id="search-box"
+          placeholder="Search here"
+        />
+      </form>
+
+      <!-- <input type="text" id="myinput" onkeyup="searchFun()" /> -->
+
+      <table id="my-table">
+        <thead>
+          <tr>
+            <th>Dezignation</th>
+            <th>First Name</th>
+            <th>SurName</th>
+            <th>Email ID</th>
+            <th>Gender</th>
+            <th>Specialization</th>
+            <th>Qualification</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
